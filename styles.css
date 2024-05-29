@@ -177,6 +177,15 @@ small span {
 
 
 @media screen and (max-width: 600px) {
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url(./images/bg-intro-desktop.png) no-repeat center;
+    background-color: var(--red);
+    background-size: cover;
+    margin: 30% 0%;
+  }
+
   .container {
     max-width: 85vw;
     margin: 0 auto;
